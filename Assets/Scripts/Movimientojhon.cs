@@ -39,7 +39,7 @@ public class Movimientojhon : MonoBehaviour
         {
             Grouded = false;
         }
-        if (Input.GetKeyDown(KeyCode.Z) && Grouded)
+        if (Input.GetKeyDown(KeyCode.X) && Grouded)
         {
             Jump();
         }
